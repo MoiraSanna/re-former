@@ -9,7 +9,7 @@ Rails.application.routes.draw do
 
   get 'users/show'
 
-  get 'users/edit'
+  patch 'users/edit'
 
 	resources :users
 end
